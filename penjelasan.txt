@@ -1,0 +1,9 @@
+Data Warehouse (DW) adalah sebuah sistem repository (tempat penyimpanan), retrive (pengambil) dan consolidate (pengkonsolidasi) kumpulan data secara periodik yang didesain berorientasi subyek, terintegrasi, bervariasi waktu, dan non-volatile, yang mendukung manajemen dalam proses analisa, pelaporan dan pengambilan keputusan.
+1. dim_payment
+Terdapat sk_payment yang terdiri dari costumerNumber,costumerName,amount,paymentDate.
+2. fakta
+Terdapat sk_product,sk_order,sk_payment
+3. dim_product
+Terdapat sk_product yang terdiri dari productCode,productName,productLine,productVendor,quantityOrdered,quantityInStock,orderNumber.
+4. dim_order
+Terdapat sk_order yang terdiri dari customerNumber,customerName,orderNumber,orderDate,status.
